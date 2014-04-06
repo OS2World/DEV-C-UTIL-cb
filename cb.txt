@@ -1,0 +1,27 @@
+             "C" Source Formatter   'Pretty Printer'
+
+
+DESCRIPTION:
+     This program takes as input a "C" source  program  file  and 
+     formats  it with the proper indents for each statement.  The 
+     original input file is renamed  as  a  .BAK  file,  and  the 
+     formatted  output  is placed in a file with the same name as 
+     the original input.  A command line option allows the indent 
+     level to be specified as from 1 to 10 spaces (default = 4).
+
+
+INVOCATION:
+               CB inputfil [indent]
+
+     inputfil       Input  "C" source program.   This file should 
+                    be  a file that has compiled error  free,  as 
+                    the formatter is not smart enough to pick  up 
+                    syntax errors. Default extention = .c
+
+     indent         This  is a number from 1 to 10 to specify the
+                    number of spaces for each indent level.   The 
+		    default spacing is 4.
+
+HELP:
+     Typing CB with no file name displays a short help reminder.
+

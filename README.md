@@ -6,7 +6,7 @@ DEV-C-UTIL-cb
 
 LICENSE
 ===============
-* N/A
+* BSD (?)
 
 COMPILE TOOLS
 ===============
@@ -14,7 +14,9 @@ COMPILE TOOLS
 
 AUTHORS
 ===============
-* 
+* John W. Kindschi Jr.
+* Bert Kleinman
+* William C. Colley, III
 
 LINKS
 ===============
